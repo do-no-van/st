@@ -29,8 +29,9 @@ $(OBJ): config.h config.mk
 st: $(OBJ)
 	$(CC) -o $@ $(OBJ) $(STLDFLAGS)
 
+# Modified to remove config.h
 clean:
-	rm -f st $(OBJ) st-$(VERSION).tar.gz
+	rm -f config.h st $(OBJ) st-$(VERSION).tar.gz
 
 dist: clean
 	mkdir -p st-$(VERSION)
