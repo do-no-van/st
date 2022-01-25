@@ -6,6 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Fira Code Retina:pixelsize=12:antialias=true:autohint=true";
+static char *font2[] = { "FiraCode Nerd Font:pixelsize=11:antialias=true:autohint=true" };
+
 static int borderpx = 2;
 
 /*
